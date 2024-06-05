@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+{% autoescape false %}
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Web安全实验</title>
+  </head>
+
+  <body>
+
+    <!-- Header -->
+    <header>
+      <h1>Web安全实验登录界面</h1>
+      <p>请输入你的用户名和密码</p>
+    </header>
+
+    <form action="/login" method="POST">
+        <input type="username" name="username" 
+                placeholder="Username" autocomplete="off" />
+        <br />
+
+        <input type="password" name="password"
+                placeholder="Password" autocomplete="off" />
+        <br />
+        <input type="submit" value="登录" />
+    </form>
+
+  </body>
+</html>
+{% endautoescape %}
