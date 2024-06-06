@@ -59,4 +59,4 @@ n_b: 00293299610081228749
 ```
 
 截图如下：
-!!![](assests/4682a0a80e93b94d943a7dae57cde29.png)
+![](assests/4682a0a80e93b94d943a7dae57cde29.png)

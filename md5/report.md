@@ -36,4 +36,4 @@ CertUtil: -hashfile 命令成功完成。
 ```
 
 可见，两个文件的 MD5 散列值相同但 SHA1 散列值不同。截图如下：
-!!![](assests/dd1ac7d51b6169da33e4f9a20c07b0e.png)
+![](assests/dd1ac7d51b6169da33e4f9a20c07b0e.png)
